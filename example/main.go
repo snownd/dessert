@@ -63,6 +63,8 @@ func NewExampleController(ps *PrintService) dessert.Controller {
 	})
 
 	// curl -H 'Access-Token: a6661260-bc68-11eb-9e9d-1904606b61ec' localhost:3000/dessert/token
+	// Handler function can return three values or none.
+	// Three values returned are http status code, http response and error.
 	ctr.Get("/token", func(h *headerData) (int, dessert.IResponse, error) {
 		return 200, &res{dessert.Res, h.AccessToken}, nil
 	})
