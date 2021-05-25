@@ -96,6 +96,7 @@ func main() {
     ControllerModule,
     dessert.DefaultServerModule,
   )
+  app.Run()
 }
 ```
 
