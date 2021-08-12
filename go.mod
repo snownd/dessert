@@ -1,4 +1,4 @@
-module github.com/duanxuelin/dessert
+module github.com/snownd/dessert
 
 go 1.15
 

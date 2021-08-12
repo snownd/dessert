@@ -5,7 +5,7 @@ A dessert for [GIN](https://github.com/gin-gonic/gin) with [fx](https://github.c
 ## Installation
 
 ```bash
-go get -u github.com/duanxuelin/dessert
+go get -u github.com/snownd/dessert
 ```
 
 

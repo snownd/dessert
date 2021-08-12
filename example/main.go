@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/duanxuelin/dessert"
+	"github.com/snownd/dessert"
 	"go.uber.org/fx"
 )
 
